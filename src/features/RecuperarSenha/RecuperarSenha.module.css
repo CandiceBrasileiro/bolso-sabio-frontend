@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
+
+  .homeContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    min-height: 100vh;
+    gap: 2rem;
+  }
+
+  .homeContainer::before {
+    display: block;
+    content:'';
+    background: url('../../assets/recuperar-senha.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+  h1 {
+    font-family: 'Spectral', Georgia;
+    line-height: 1;
+    font-size: 3rem;
+    margin: 1rem 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  h1::after {
+    content: '';
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #1976D2;
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+    border-radius: 0.2rem;
+    z-index: -1;
+  }
+
+  .form {
+    padding-top: 1rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    max-width: 400px;
+  }
+
+  .form Button {
+    width:120px;
+  }
+
+  .perdeu {
+    display: inline-block;
+    color: #1976D2;
+    padding: 0.5rem 0;
+    line-height: 1;
+    margin-top: 1rem;
+  }
+
+  .cadastro {
+    margin-top: 1rem;
+    color: #333;
+}
+
+h2 {
+  font-family: 'Spectral', Georgia;
+  line-height: 1;
+  font-size: 2rem;
+  margin: 1rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+h2::after {
+  content: '';
+    display: block;
+    background: #ddd;
+    height: 0.5rem;
+    width: 3rem;
+    border-radius: 0.2rem;
+}
+
+.cadastro p {
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+}
+ 
+.cadastro Button {
+  width: 120px;
+}
+ 

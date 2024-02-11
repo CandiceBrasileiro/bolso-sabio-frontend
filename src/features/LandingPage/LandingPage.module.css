@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
+
+
+.homeContainer {
+    width: 100%;
+    display: block;
+    content:'';
+    background: url('../../assets/executiva-mostrando-moedas-com-branca-piggybank-escrivaninha.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 65vh;
+}
+
+.linha {
+    width: 100%;
+    border-color: #ddd;
+}
+
+h1 {
+    font-family: 'Spectral', Georgia;
+    line-height: 1;
+    font-size: 3rem;
+    margin: 1rem 0;
+    position: relative;
+    z-index: 1;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #1976D2;
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+    border-radius: 0.2rem;
+    z-index: -1;
+}
+
+h2 {
+    font-family: 'Spectral', Georgia;
+    line-height: 1;
+    font-size: 2rem;
+    margin: 1rem 0;
+    position: relative;
+    z-index: 1;
+}
+
+h2::after {
+    content: '';
+      display: block;
+      background: #ddd;
+      height: 0.5rem;
+      width: 3rem;
+      border-radius: 0.2rem;
+  }
+
+.section1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    min-height: 60vh;
+    gap: 2rem;
+    padding: 20px;
+    color:#1976D2;
+}
+
+
+.section1::after {
+    display: block;
+    content: '';
+    max-width: 413px;
+    max-height: 329px; 
+    background: url('../../assets/f1.jpg'), lightgray 50% / cover no-repeat;;
+    background-size:cover;
+    border-radius: 4px;
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    min-height: 65vh;
+    gap: 2rem;
+}
+
+.section2::after {
+    display: block;
+    content: '';
+    max-width: 413px;
+    max-height: 380px; 
+    background: url('../../assets/f2.jpg'), lightgray 50% / cover no-repeat;;
+    background-size:cover;
+    border-radius: 4px;
+}
+
+.textarea {
+    display: flex;
+    max-width: 700px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+    font-size:1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    color:#1976D2;
+    text-align: center;
+}
+
+.textarea p{
+    color:#333;
+}
+
+

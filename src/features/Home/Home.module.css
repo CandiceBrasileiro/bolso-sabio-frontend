@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
+
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 50px auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner {
+    display: flex;
+}
+
+.item {
+    padding: 14px;
+    min-height: 348px;
+    min-width: 871px;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    pointer-events: none;
+}
+
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+}

@@ -1,0 +1,68 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #F5F5F5;
+  position: relative;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.cardTI {
+  margin-bottom: 3.125rem;
+  margin-top: 3.125rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.divcard {
+ margin-bottom: 2rem;
+ justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  background-color: #F5F5F5;
+  width: 100%;
+  position: absolute;
+}
+
+.footer-container > div > div {
+  display: flex;
+ justify-content: center;
+}
+
+.footer-container > div > address {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+hr {
+  width: 50%;
+  height: 1px;
+  border: 0px;
+  border-top: 1px solid gray;
+}
+
+
+
+/* CSS 375px smartphone*/
+
+@media (max-width: 400px) {
+
+ 
+  
+}
